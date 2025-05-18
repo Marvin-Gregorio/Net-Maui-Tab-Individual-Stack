@@ -25,6 +25,11 @@
                 WidthRequest="100"
                 HeightRequest="50"
                 Clicked="GoToPage3"/>
+            <Button 
+                Text="Reinitialize Tab1"
+                WidthRequest="200"
+                HeightRequest="50"
+                Clicked="ReinitializeTab1AndGoToTab1"/>
         </HorizontalStackLayout>
     </Grid>
     

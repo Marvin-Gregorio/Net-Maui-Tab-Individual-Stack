@@ -27,6 +27,6 @@ public partial class InnerTab : ContentView
 
     public async void ResetStack(object sender, EventArgs e)
     {
-        await Shell.Current.Items[0].CurrentItem.Navigation.PopToRootAsync();
+        await Shell.Current.Navigation.PopToRootAsync();
     }
 }
