@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Components.InnerTab">
+    <HorizontalStackLayout 
+    Spacing="10"
+    Padding="20"
+    HorizontalOptions="Center">
+        <Button 
+        Text="Page1"
+        WidthRequest="100"
+        HeightRequest="50"
+            Clicked="GoToPage1"/>
+        <Button 
+        Text="Page2"
+        WidthRequest="100"
+        HeightRequest="50"
+            Clicked="GoToPage2"/>
+        <Button 
+        Text="Page3"
+        WidthRequest="100"
+        HeightRequest="50"
+            Clicked="GoToPage3"/>
+        <Button
+            Text="Reset Tab Stack"
+            WidthRequest="200"
+            HeightRequest="50"
+            Clicked="ResetStack"/>
+    </HorizontalStackLayout>
+</ContentView>
