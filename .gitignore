@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build for Mac Catalyst
+**/bin/
+**/obj/
+
+# Xamarin/MAUI stuff
+*.userprefs
+
+# Others
+*.log
+*.tlog
+*.dbmdl
+*.bak
+*.cache
+*.pdb
+*.mdb
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider specific
+.idea/
+
+# JetBrains Rider
+*.sln.iml
